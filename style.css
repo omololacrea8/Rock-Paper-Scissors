@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Baloo Paaji 2', cursive;
     font-size: 20px;
+    overflow:hidden;
     text-align: center;
     user-select: none;
   }
