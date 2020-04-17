@@ -10,8 +10,8 @@
   .bg-img {
     background: url("img/baby2.jpeg");
     height: 142vh;
-    background-size: contain;
-    background-position: center; 
+    background-size: cover;
+/*     background-position: center;  */
      
   }
   .bg-img:after {
