@@ -10,33 +10,23 @@
   .bg-img {
     background: url("img/baby2.jpeg");
     height: 142vh;
-    background-size: cover;
+    background-size: contain;
     background-position: center; 
      
   }
   .bg-img:after {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
     background: rgba(0, 0, 0, 0.7);
   }
-  .content {
-    position: absolute;
-    top:50%;
-    left: 50%;
-    z-index: 999;
+  .content {  
     text-align: center;
-    padding: 60px 32px;
-    transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, 0.04);
-    box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+    /*box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);*/
   }
   .content h1 {
     color: white;
     font-size: 33px;
+    text-align: center;
+
     font-weight: 600;
     margin: 0 0 35px 0;
   }
